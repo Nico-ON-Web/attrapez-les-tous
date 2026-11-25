@@ -9,8 +9,9 @@ btn.addEventListener('click',()=>{
     then(rep=>{return rep.json()})
     .then(res=>{
         console.log(res)
+        // use res.sprites.front_default
         document.querySelector(".pokemon-card").innerHTML=`
-            <img src="${res.sprites.front_default}" alt=""/>
+            <img src="${res.sprites.other.dream_world.front_default}" alt=""/>
             <h2>${res.name}</h2> 
         `
     })
