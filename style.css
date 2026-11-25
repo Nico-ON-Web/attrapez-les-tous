@@ -20,6 +20,11 @@ body {
     overflow: hidden;
 }
 
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color:#00e5ff;
+}
+
 /* Carte Pokémon */
 .pokemon-card {
     width: 320px;
